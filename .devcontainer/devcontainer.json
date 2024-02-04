@@ -3,6 +3,6 @@
 		"context": "..",
 		"dockerfile": "Dockerfile"
 	},
-	"runArgs": ["--gpus","all"]
-	//postAttachCommand
+	"runArgs": ["--gpus","all"],
+	"remoteUser": "cuquantum"
 }
